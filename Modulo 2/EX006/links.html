@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{ /* "a" se refere ao link.*/
+    color: blue;
+    text-decoration: none ;
+    font-weight: bold;
+}
+
+a:visited{ /*a:visited se refere ao "a" visitado.*/
+    color: blueviolet;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(104, 104, 238);
+}
+
+a:active{ /*Quando clica.*/
+    color: rgb(95, 95, 148);
+}
+
+a::after{ /*:: - pseudo-elementos*/
+    content: ' [link]' /*conteudo*/
+}
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+        <ul>
+            <li><a href="https://www.instagram.com/na.tashafs/" target="_blank" rel="external">Instagram</a></li>
+            <li><a href="https://www.facebook.com/natasha.freitas6/" target="_blank" rel="external">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7057775676061274112/" target="_blank" rel="external">LinkedIn</a></li>
+        </ul>
+</body>
+</html>
