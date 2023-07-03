@@ -31,6 +31,12 @@
             padding: 8px;
         }
 
+        tbody > tr:nth-child(2n) /*Seleciona elementos com base em suas posições em grupos de elementos irmãos(tr nesse caso)*/
+        /*() representa: a cada n números*/
+        /*Pode se usar (odd - ímpar) ou (even - par)*/{
+            background-color: lightgray;
+        }
+
         .num{
             text-align: right;
         }
